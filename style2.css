@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    list-style: none;
+    color: whitesmoke;
+}
+
+body {
+    background-image: url(images/project-background.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 125vh;
+ }
+ 
