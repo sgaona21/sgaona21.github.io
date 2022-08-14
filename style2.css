@@ -8,8 +8,37 @@
 }
 
 body {
-    background-image: url(images/project-background.jpg); 
-    background-repeat: no-repeat;
-    background-size: 100% 125vh;
- }
+    background-image: linear-gradient(#013265, black);
+    height: 100vh;
+}
+
+header {
+    padding: 1.5rem;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: .75rem;
+    border-radius: 50px;
+}
+
+#name {
+    display: flex;
+}
+
+.nav-options {
+    display: flex;
+}
+
+h1 {
+    padding: 1rem;
+    letter-spacing: 3px;
+}
+
+#dev-logo {
+    color: #fab200;
+    /* color: #fa9500; */
+    font-family: 'Roboto', sans-serif;
+}
  
