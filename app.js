@@ -27,25 +27,25 @@ setInterval(makeBoth, 1000);
 
 const characters = document.getElementsByClassName("type-animation");
 
-function biggerFunction(index, time) {
-    function textsGoGreen(index) { 
+function textVisibility(index, time) {
+    function letterAppear(index) { 
         characters[index].style.display = "inline";
     }
-    function delayedGreen() {
-        textsGoGreen(index);
+    function delayedAppearance() {
+        letterAppear(index);
     }
-    setTimeout(delayedGreen, time);
+    setTimeout(delayedAppearance, time);
 }
 
-function textAnimation() {
+function typeAnimation() {
     time = 1000;
     for (i = 0; i < characters.length; i++) {
         time = time+=100;
-        biggerFunction(i, time);
+        textVisibility(i, time);
     }
 }
 
-textAnimation();
+typeAnimation();
 
 
 
