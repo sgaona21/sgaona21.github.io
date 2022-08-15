@@ -3,18 +3,18 @@ console.log("js linked");
 
 
 // *****BLINKER ANIMATION*****
-const logo = document.getElementById("blinker");
+const blinker = document.getElementById("blinker");
 
 function makeAppear() {
-    logo.style.visibility = "visible"
+    blinker.style.visibility = "visible"
 }
 
-function makeDisapear() {
-    logo.style.visibility = "hidden";
+function makeDisappear() {
+    blinker.style.visibility = "hidden";
 }
 
 function makeBoth() {
-    setTimeout(makeDisapear, 0);
+    setTimeout(makeDisappear, 0);
     setTimeout(makeAppear, 500);
 }
 
