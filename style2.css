@@ -38,17 +38,18 @@ h1 {
 
 #dev-logo {
     color: #facc00;
-    visibility: hidden;
 }
 
 .type-animation {
     display: inline;
     color: #facc00;
+    display: none;
 }
 
 #blinker {
-    display: inline;
     color: #fab200;
+    margin: auto;
+    font-size: 2rem;
+    margin-left: -18px;
 }
 
- 
