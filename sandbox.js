@@ -27,7 +27,6 @@ setInterval(makeBoth, 1000);
 
 const title = document.getElementById("title");
 const title2String = title.innerHTML;
-const title2Array = [...title2String];
 
 function makeLetterAppear() {
     title.innerHTML = "";
@@ -38,7 +37,7 @@ function makeLetterAppear() {
             title.innerHTML = title.innerHTML + letter;
         }
         setTimeout(stringConnect, time);
-        time = time += 100;
+        time = time += 150;
         console.log(title.innerHTML);
     }  
 
