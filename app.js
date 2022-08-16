@@ -1,56 +1,14 @@
 console.log("js linked");
 
+const title = document.getElementById("title");
+const title2String = title.innerHTML
 
-
-// *****BLINKER ANIMATION*****
-const blinker = document.getElementById("blinker");
-
-function makeAppear() {
-    blinker.style.visibility = "visible"
-}
-
-function makeDisappear() {
-    blinker.style.visibility = "hidden";
-}
-
-function makeBoth() {
-    setTimeout(makeDisappear, 0);
-    setTimeout(makeAppear, 500);
-}
-
-setInterval(makeBoth, 1000);
+const randomLetter = title2String[22];
+console.log(title);
+console.log(title2String);
+console.log(randomLetter);
 
 
 
 
-// *****TYPE ANIMATION*****
-
-const characters = document.getElementsByClassName("type-animation");
-
-function textVisibility(index, time) {
-    function letterAppear(index) { 
-        characters[index].style.display = "inline";
-    }
-    function delayedAppearance() {
-        letterAppear(index);
-    }
-    setTimeout(delayedAppearance, time);
-}
-
-function typeAnimation() {
-    time = 1000;
-    for (i = 0; i < characters.length; i++) {
-        time = time+=100;
-        textVisibility(i, time);
-    }
-}
-
-typeAnimation();
-
-
-
-
-
-
-
-
+// const title2Array = [...]

@@ -1,0 +1,32 @@
+nav bar: Steven Gaona | Front end Web Developer       Projects Contact
+
+skills: html css javascript 
+
+
+// *****TYPE ANIMATION*****
+
+const characters = document.getElementsByClassName("type-animation");
+
+function textVisibility(index, time) {
+    function letterAppear(index) { 
+        characters[index].style.display = "inline";
+    }
+    function delayedAppearance() {
+        letterAppear(index);
+    }
+    setTimeout(delayedAppearance, time);
+}
+
+function typeAnimation() {
+    time = 1000;
+    for (i = 0; i < characters.length; i++) {
+        time = time+=100;
+        textVisibility(i, time);
+    }
+}
+
+typeAnimation();
+
+instructions: 
+make the f appear 
+make the r appear 
