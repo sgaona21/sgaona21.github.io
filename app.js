@@ -33,7 +33,7 @@ function makeLetterAppear() {
             title.innerHTML = title.innerHTML + letter;
         }
         setTimeout(stringConnect, time);
-        time = time += 150;
+        time = time += 50;
         console.log(title.innerHTML);
     }  
 }
