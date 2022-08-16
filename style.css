@@ -40,16 +40,79 @@ h1 {
     color: #facc00;
 }
 
-.type-animation {
-    display: inline;
-    color: #facc00;
-    display: none;
-}
-
 #blinker {
     color: #fab200;
     margin: auto;
     font-size: 2rem;
     margin-left: -18px;
 }
+
+.projects, .tech-stack, .contact {
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.507);
+    width: auto;
+    height: auto;
+    margin: 1.5rem;
+}
+
+.projects {
+    grid-area: projects;
+}
+
+.tech-stack {
+    grid-area: tech-stack;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+#main-grid {
+    display: grid;
+    margin: auto;
+    height: 85vh;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "projects tech-stack"
+    "projects contact"
+    ;
+}
+
+h2 {
+    text-align: center;
+    padding: 1rem;
+    letter-spacing: 2px;
+}
+
+.html-icon {
+    width: 80px;
+}
+
+.css-icon {
+    width: 80px
+}
+
+.js-icon {
+    width: 80px;
+}
+
+.html-icon-container {
+    padding: 1rem;
+    margin-left: 10%;
+}
+
+.css-icon-container {
+    padding: 1rem;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.js-icon-container {
+    padding: 1rem;
+    text-align: right;
+    margin-right: 10%
+}
+
 
