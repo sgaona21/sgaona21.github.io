@@ -114,7 +114,7 @@ margin-left: .5rem;
 .icons {
     text-align: center;
     font-weight: bold;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 .html-css-container {
