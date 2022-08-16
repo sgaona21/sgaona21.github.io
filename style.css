@@ -98,21 +98,28 @@ h2 {
 }
 
 .html-icon-container {
-    padding: 1rem;
-    margin-left: 10%;
+    text-align: center;
+    margin-right: .5rem;
 }
 
 .css-icon-container {
-    padding: 1rem;
-    text-align: center;
-    padding-top: 0;
-    padding-bottom: 0;
+text-align: center;
+margin-left: .5rem;
 }
 
 .js-icon-container {
-    padding: 1rem;
-    text-align: right;
-    margin-right: 10%
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.html-css-container {
+    display: flex;
+    justify-content: center;
 }
 
 
