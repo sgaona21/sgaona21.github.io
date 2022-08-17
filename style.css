@@ -78,7 +78,7 @@ h1 {
 }
 
 .projects, .tech-stack, .contact {
-    border-radius: 25px;
+    border-radius: 35px;
     background-color: rgba(0, 0, 0, 0.507);
     width: auto;
     height: auto;
