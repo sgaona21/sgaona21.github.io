@@ -14,8 +14,10 @@ function makeBoth() {
     setTimeout(makeDisappear, 0);
     setTimeout(makeAppear, 500);
 }
-setInterval(makeBoth, 1000);
-
+function blink() {
+    setInterval(makeBoth, 1000);
+}
+setTimeout(blink, 2250);
 
 
 
@@ -33,7 +35,7 @@ function makeLetterAppear() {
             title.innerHTML = title.innerHTML + letter;
         }
         setTimeout(stringConnect, time);
-        time = time += 50;
+        time = time += 100;
         console.log(title.innerHTML);
     }  
 }

@@ -3,22 +3,22 @@ console.log("js linked");
 
 
 // *****BLINKER ANIMATION*****
-const blinker = document.getElementById("blinker");
+// const blinker = document.getElementById("blinker");
 
-function makeAppear() {
-    blinker.style.visibility = "visible"
-}
+// function makeAppear() {
+//     blinker.style.visibility = "visible"
+// }
 
-function makeDisappear() {
-    blinker.style.visibility = "hidden";
-}
+// function makeDisappear() {
+//     blinker.style.visibility = "hidden";
+// }
 
-function makeBoth() {
-    setTimeout(makeDisappear, 0);
-    setTimeout(makeAppear, 500);
-}
+// function makeBoth() {
+//     setTimeout(makeDisappear, 0);
+//     setTimeout(makeAppear, 500);
+// }
 
-setInterval(makeBoth, 1000);
+// setInterval(makeBoth, 1000);
 
 
 
