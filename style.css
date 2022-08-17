@@ -9,18 +9,47 @@
 
 body {
     background-image: linear-gradient(#013265, black);
+    display: grid;
     height: 100vh;
+    grid-template-rows: 15% 85%;
+    grid-template-areas: 
+    "header"
+    "main";
+}
+
+#main-grid {
+    display: grid;
+    grid-template-areas: 
+    "projects tech-stack"
+    "projects contact";
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 50% 50%;
 }
 
 header {
-    padding: 1.5rem;
+    grid-area: header 
 }
+
+main {
+    grid-area: main;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.507);
-    padding: .75rem;
     border-radius: 50px;
+    width: 100%;
+    margin: 1rem;
+    padding: .75rem;
+    margin-bottom: .5rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.486), #0131657e);
+    box-shadow: 1px 1px 5px gray;
 }
 
 #name {
@@ -52,32 +81,30 @@ h1 {
     background-color: rgba(0, 0, 0, 0.507);
     width: auto;
     height: auto;
-    margin: 1.5rem;
+    margin: 1rem;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.486), #0131657e); */
+    box-shadow: 1px 1px 5px gray;
 }
 
 .projects {
     grid-area: projects;
+    margin-top: .5rem;
+    margin-right: .5rem;
 }
 
 .tech-stack {
     grid-area: tech-stack;
+    margin-top: .5rem;
+    margin-left: .5rem;
+    margin-bottom: .5rem;
 }
 
 .contact {
     grid-area: contact;
+    margin-left: .5rem;
+    margin-top: .5rem;
 }
 
-#main-grid {
-    display: grid;
-    margin: auto;
-    height: 85vh;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "projects tech-stack"
-    "projects contact"
-    ;
-}
 
 h2 {
     text-align: center;
@@ -122,4 +149,15 @@ margin-left: .5rem;
     justify-content: center;
 }
 
+.thumb1 {
+    width: 250px;
+    border-radius: 10px;
+}
 
+.projects-grid {
+    border: red solid 2px;
+    display: grid;
+    width: 95%;
+    margin: auto;
+
+}
