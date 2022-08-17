@@ -50,7 +50,8 @@ nav {
     padding: .75rem;
     margin-bottom: .5rem;
     background-image: linear-gradient(rgba(0, 0, 0, 0.486), #0131657e);
-    box-shadow: 0px 0px 10px whitesmoke;
+    box-shadow: 0px 0px 5px whitesmoke;
+    /* border: solid lightgray 2px; */
 }
 
 #name {
@@ -84,7 +85,7 @@ h1 {
     height: auto;
     margin: 1rem;
     background-image: linear-gradient(rgba(0, 0, 0, 0.486), #0131657e);
-    box-shadow: 0px 0px 10px whitesmoke;
+    box-shadow: 0px 0px 5px whitesmoke;
     /* border: solid lightgray 2px */
 }
 
