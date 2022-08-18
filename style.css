@@ -89,7 +89,7 @@ h3 {
     width: 100px;
     border-radius: 10px;
     grid-area: thumbnail;
-    margin: .5rem auto ;
+    margin: .5rem auto;
 }
 
 .button {
@@ -117,6 +117,7 @@ h3 {
     grid-area: description;
     color: lightgray;
     text-align: left;
+    margin-left: .5rem;
 }
 
 .buttons-container {
