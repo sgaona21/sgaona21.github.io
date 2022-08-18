@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: black;
+    background-image: linear-gradient(rgb(0, 0, 0), #013165);
 }
 
 #name {
@@ -39,30 +39,33 @@ body {
     color: #facc00;
 }
 
-.thumbnail-container-1 {
-
-}
-
 .thumbs {
-    width: 70%;
+    width: 65%;
     border-radius: 10px;
     display: block;
     margin: auto;
 }
 
 .projects {
-    border-radius: 35px;
-    background-color: rgba(0, 0, 0, 0.507);
-    width: auto;
     height: auto;
     margin: 1rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.486), #0131657e);
-    box-shadow: 0px 0px 5px whitesmoke;
 }
 
 h2 {
     text-align: center;
     padding: 1rem;
+    padding-bottom: 4rem;
+}
+
+h3 {
+    text-align: center;
+    padding: .5rem;
+}
+
+.thumbnail-container {
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 5rem;
 }
 
 
