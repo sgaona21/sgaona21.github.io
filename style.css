@@ -8,9 +8,15 @@
 }
 
 body {
-    /* background-image: linear-gradient(rgb(0, 0, 0), #013165); */
-    background-color: rgba(0, 0, 0, 0.986);
+    background-color: rgba(0, 0, 0, 0.952);
 }
+
+
+
+
+
+
+/******HEADER******/
 
 #name {
     text-align: center;
@@ -40,90 +46,75 @@ body {
     color: #facc00;
 }
 
-.thumbs {
-    width: 30%;
-    border-radius: 10px;
-    display: block;
-    margin: auto;
-}
 
-.projects {
-    height: auto;
 
-}
+
+
+
+/* *****MAIN***** */
 
 h2 {
     text-align: center;
-    padding: 1rem;
-    padding-bottom: 4rem;
+    margin: 2rem;
 }
 
 h3 {
+    font-size: 1.25rem;
     text-align: center;
-    padding: .5rem;
 }
-
-.thumbnail-container {
-    text-align: center;
-    letter-spacing: 1px;
-    margin: 1rem;
-    margin-bottom: 5rem;
-    margin-left: 0;
-    margin-right: 0;
+.project-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.486), #0131657e);
     box-shadow: 0px 0px 5px whitesmoke;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 70% 30%;
+    grid-template-areas: 
+    "thumbnail texts"
+    "buttons buttons";
+    padding: .5rem;
+    height: 300px;
+    letter-spacing: 1px;
+    margin: 1rem;
+    border-radius: 10px;
 }
 
-.html-icon, .css-icon {
-    width: 50%;
+.thumbnail {
+    width: 100px;
+    border-radius: 10px;
+    grid-area: thumbnail;
+    margin: .5rem auto ;
 }
 
-
-.js-icon {
-    width: 25%;
+button {
+    color: black;
+    background-color: #facc00;
+    border-radius: 10px;
+    height: 50%;
+    width: 40%;
+    font-weight: bold;
+    font-size: 1rem;
+    border: solid lightgray 2px;
 }
 
-.html-css-container {
+.text-container {
+    grid-area: texts;
+}
+
+p {
+    color: lightgray;
+    text-align: center;
+}
+
+.buttons-container {
+    grid-area: buttons;
     display: flex;
-}
-
-.html-icon-container, .css-icon-container, .js-icon-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
 
-.html-icon, .html-text {
-    margin-left: 2rem;
-}
 
-.css-icon, .css-text {
-    margin-right: 2rem;
-}
 
-.js-icon-container {
-    margin-bottom: 3rem;
-}
 
-.tech-stack {
-    margin-bottom: 7rem;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.486), #0131657e);
-    box-shadow: 0px 0px 5px whitesmoke;
-}
 
-.contact {
-    text-align: center;
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.486), #0131657e);
-    box-shadow: 0px 0px 5px whitesmoke;
-}
-
-.email, .phone {
-    padding: .25rem;
-}
-.linkedin-icon {
-    width: 20%;
-    margin: 1rem
-}
 
