@@ -88,7 +88,19 @@ h3 {
     align-items: center;
 }
 
+.html-icon, .html-text {
+    margin-left: 2rem;
+}
+
+.css-icon, .css-text {
+    margin-right: 2rem;
+}
+
 .js-icon-container {
     margin-bottom: 3rem;
 }
+
+/* .tech-stack-header {
+    margin-bottom: -1rem
+} */
 
