@@ -38,3 +38,32 @@ body {
 #title, #blinker {
     color: #facc00;
 }
+
+.thumbnail-container-1 {
+
+}
+
+.thumbs {
+    width: 70%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.projects {
+    border-radius: 35px;
+    background-color: rgba(0, 0, 0, 0.507);
+    width: auto;
+    height: auto;
+    margin: 1rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.486), #0131657e);
+    box-shadow: 0px 0px 5px whitesmoke;
+}
+
+h2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
