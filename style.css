@@ -163,6 +163,36 @@ h4 {
 
 
 
+/* *****CONTACT***** */
+
+.contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.486), #0131657e);
+    box-shadow: 0px 0px 5px whitesmoke;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.contact-header {
+    margin: 0;
+    padding: 2rem;
+}
+
+.email, .phone {
+    padding: .75rem
+}
+
+.linkedin-icon {
+    padding-bottom: 1rem;
+}
+
+.linkedin-icon:hover {
+    cursor: pointer;
+}
+
+
+
+
+
 
 
 
