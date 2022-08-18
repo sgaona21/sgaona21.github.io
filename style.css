@@ -54,6 +54,7 @@ body {
 
 /* *****MAIN***** */
 
+/* *****PROJECTS***** */
 h2 {
     text-align: center;
     margin: 2rem;
@@ -95,7 +96,7 @@ h3 {
 
 .button {
     color: black;
-    background-color: #facc00;
+    background-color: #fab200;
     font-weight: bold;
     letter-spacing: 1px;
     border-radius: 10px;
@@ -127,6 +128,41 @@ h3 {
     justify-content: space-around;
     align-items: center;
 }
+
+
+
+
+/* *****TECH-STACK***** */
+
+.tech-stack {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.486), #0131657e);
+    box-shadow: 0px 0px 5px whitesmoke;
+    padding-bottom: 2rem;
+}
+
+.tech-stack-header {
+    padding-top: 1rem;
+}
+
+h4 {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.html-css-merge {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
 
 
 
