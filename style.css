@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Nunito', sans-serif;
     list-style: none;
+    text-decoration: none;
     color: whitesmoke;
 }
 
@@ -91,7 +92,7 @@ h3 {
     margin: .5rem auto ;
 }
 
-button {
+.button {
     color: black;
     background-color: #facc00;
     font-weight: bold;
@@ -102,6 +103,14 @@ button {
     font-weight: bold;
     font-size: 1rem;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px whitesmoke;
 }
 
 .project-description {
