@@ -41,7 +41,7 @@ body {
 }
 
 .thumbs {
-    width: 65%;
+    width: 30%;
     border-radius: 10px;
     display: block;
     margin: auto;
@@ -66,11 +66,12 @@ h3 {
 .thumbnail-container {
     text-align: center;
     letter-spacing: 1px;
+    margin: 1rem;
     margin-bottom: 5rem;
+    margin-left: 0;
+    margin-right: 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.486), #0131657e);
     box-shadow: 0px 0px 5px whitesmoke;
-    border-radius: 25px;
-    margin: .5rem;
 }
 
 .html-icon, .css-icon {
