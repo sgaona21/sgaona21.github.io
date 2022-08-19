@@ -265,6 +265,11 @@ h4 {
         box-shadow: 0px 0px 10px yellow;
     }
 
+    #git-holder {
+        display: flex;
+        align-items: center;
+    }
+
 
    
 
