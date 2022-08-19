@@ -115,7 +115,8 @@ h3 {
 
 .button {
     color: black;
-    background-color: #fab200;
+    /* background-color: #fab200; */
+    background-image: linear-gradient(#facc00, #fab200);
     font-weight: bold;
     letter-spacing: 1px;
     border-radius: 10px;
@@ -131,7 +132,7 @@ h3 {
 
 .button:hover {
     cursor: pointer;
-    box-shadow: 0px 0px 10px whitesmoke;
+    box-shadow: 0px 0px 7px whitesmoke;
 }
 
 .project-description {
@@ -295,7 +296,7 @@ h4 {
         grid-template-columns: 1fr 1fr 1fr;
         width: 95%;
         margin: auto;
-        max-width: 1600px;
+        /* max-width: 1600px; */
     }
 
     #name {
