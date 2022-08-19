@@ -17,7 +17,7 @@ function makeBoth() {
 function blink() {
     setInterval(makeBoth, 1000);
 }
-setTimeout(blink, 2250);
+setTimeout(blink, 2000);
 
 
 
