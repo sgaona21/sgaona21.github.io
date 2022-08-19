@@ -29,6 +29,7 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.486), #0131657e);
     box-shadow: 0px 0px 5px whitesmoke;
     max-width: 340px;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -52,6 +53,10 @@ body {
 
 .github-icon {
     display: none;
+}
+
+#refresh:hover {
+    cursor: pointer;
 }
 
 
@@ -93,8 +98,7 @@ h3 {
     margin: 1rem;
     border-radius: 25px;
     margin-bottom: 3rem;
-    min-width: 288px;
-    width: 288px;
+    min-width: 300px;
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -200,7 +204,7 @@ h4 {
 
 .linkedin-icon:hover {
     cursor: pointer;
-    box-shadow: 0px 0px 10px whitesmoke;
+    box-shadow: 0px 0px 10px yellow;
 
 }
 
@@ -249,6 +253,16 @@ h4 {
 
     .github-icon {
         display: inline;
+    }
+
+    .html-css-merge {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .github-icon:hover {
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px yellow;
     }
 
 
