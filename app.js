@@ -44,11 +44,7 @@ makeLetterAppear();
 
 
 
-const refresh = document.getElementById('refresh')
 
-refresh.addEventListener("click", event => {
-        location.reload();
-    });
 
 
 
