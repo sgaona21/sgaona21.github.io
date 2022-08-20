@@ -343,7 +343,6 @@ h4 {
 
     .tech-stack-contact-merge {
         display: flex;
-        
     }
 
     .tech-stack {
@@ -371,6 +370,7 @@ h4 {
         fill: gray;
         margin-right: 1rem;
         display: inline;
+        display: none;
     }
 
     .moon-icon:hover {
@@ -386,9 +386,11 @@ h4 {
 
     /* ******THEME SWITCH****** */
 
-    /* body {
+     /* body {
         background-image: url(images/purpbackground.jpg); 
-        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 130vh;
      }
 
      #name {
@@ -399,10 +401,25 @@ h4 {
     .project-container {
         background-image: none;
         background-color: rgba(189, 20, 189, 0.205);
-    } */
+    }
 
+     .projects {
+        max-width: 100%;
+     }   
 
-  }
+     .tech-stack {
+        background-image: none;
+        background-color: rgba(189, 20, 189, 0.205);
+     }
+
+     .contact {
+        background-image: none;
+        background-color: rgba(189, 20, 189, 0.205);
+     } */
+
+   
+  } 
+
 
 
 
