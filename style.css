@@ -282,7 +282,18 @@ h4 {
         font-size: 1.25rem;
     }
 
-   
+    .linkedinround-icon {
+        margin-right: 1rem
+    }
+
+    .linkedinround-icon:hover {
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px yellow;
+    }
+
+    .icon-separator {
+        display: flex;
+    }
 
   }
 
