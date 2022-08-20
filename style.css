@@ -80,7 +80,7 @@ h3 {
     font-size: 1.5rem;
     text-align: center;
     grid-area: h3;
-    margin-top: .5rem;
+    margin-top: 1rem;
 }
 .project-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.486), #0131657e);
@@ -111,6 +111,7 @@ h3 {
     border-radius: 10px;
     grid-area: thumbnail;
     margin: .5rem auto;
+    margin-top: 1rem;
 }
 
 .button {
@@ -122,7 +123,6 @@ h3 {
     border-radius: 10px;
     height: 50%;
     width: 40%;
-    font-weight: bold;
     font-size: 1rem;
     border: none;
     display: flex;
