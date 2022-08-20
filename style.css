@@ -395,6 +395,14 @@ h4 {
         cursor: pointer;
     }
 
+    .name {
+        padding-left: 1rem;
+    }
+
+    .nav-highlight {
+        padding-right: 1rem;
+    }
+
 
 
 
