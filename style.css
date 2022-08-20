@@ -28,7 +28,7 @@ body {
     font-size: .88rem;
     background-image: linear-gradient(rgba(0, 0, 0, 0.486), #0131657e);
     box-shadow: 0px 0px 5px whitesmoke;
-    /* max-width: 340px; */
+    max-width: 340px;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
@@ -274,7 +274,11 @@ h4 {
 
     .project-container {
 
-        max-width: 80%;
+        max-width: 75%;
+    }
+
+    .email, .phone {
+        font-size: 1.25rem;
     }
 
    
@@ -311,6 +315,32 @@ h4 {
 
     #refresh {
         margin-left: 1rem;
+    }
+
+    .tech-stack-contact-merge {
+        display: flex;
+        
+    }
+
+    .tech-stack {
+        flex-basis: 50%;
+    }
+
+    .contact {
+    flex-basis: 50%;
+    }
+
+    .contact-header {
+        margin: 1rem;
+    }
+
+    .html-css-merge {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .phone {
+        margin-bottom: 3rem;
     }
   }
 
