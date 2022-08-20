@@ -59,6 +59,10 @@ body {
     cursor: pointer;
 }
 
+.icon-separator {
+    display: none;
+}
+
 
 
 
@@ -258,6 +262,10 @@ h4 {
         display: inline;
     }
 
+    .icon-separator {
+        display: inline;
+    }
+
     .html-css-merge {
         margin-left: 20%;
         margin-right: 20%;
@@ -293,6 +301,10 @@ h4 {
 
     .icon-separator {
         display: flex;
+    }
+
+    .moon-icon {
+        display: none;
     }
 
   }
@@ -354,6 +366,42 @@ h4 {
     .phone {
         margin-bottom: 3rem;
     }
+
+    .moon-icon {
+        fill: gray;
+        margin-right: 1rem;
+        display: inline;
+    }
+
+    .moon-icon:hover {
+        box-shadow: 0px 0px 10px yellow;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+    /* ******THEME SWITCH****** */
+
+    /* body {
+        background-image: url(images/purpbackground.jpg); 
+        height: 100vh;
+     }
+
+     #name {
+        background-color: rgba(189, 20, 189, 0.205);
+        background-image: none;
+    }
+
+    .project-container {
+        background-image: none;
+        background-color: rgba(189, 20, 189, 0.205);
+    } */
+
+
   }
 
 
