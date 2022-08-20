@@ -275,6 +275,7 @@ h4 {
 
     .icon-separator {
         display: inline;
+        margin-top: 0;
     }
 
     .html-css-merge {
