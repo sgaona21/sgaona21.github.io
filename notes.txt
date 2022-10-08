@@ -1,95 +1,16 @@
-nav bar: Steven Gaona | Front end Web Developer       Projects Contact
-
-skills: html css javascript 
-
-
-// *****TYPE ANIMATION*****
-
-const characters = document.getElementsByClassName("type-animation");
-
-function textVisibility(index, time) {
-    function letterAppear(index) { 
-        characters[index].style.display = "inline";
-    }
-    function delayedAppearance() {
-        letterAppear(index);
-    }
-    setTimeout(delayedAppearance, time);
+// *****BLINKER ANIMATION*****
+const blinker = document.getElementById("blinker");
+function makeAppear() {
+    blinker.style.visibility = "visible"
 }
-
-function typeAnimation() {
-    time = 1000;
-    for (i = 0; i < characters.length; i++) {
-        time = time+=100;
-        textVisibility(i, time);
-    }
+function makeDisappear() {
+    blinker.style.visibility = "hidden";
 }
-
-typeAnimation();
-
-instructions: 
-make the f appear 
-make the r appear 
-
- <div class="project-container">
-                <img class="thumbnail" src="images/project-3-thumbnail.png">
-                <h3>Online Registration Form</h3>
-                <p class="project-description">An online registration form built with HTML and CSS</p>
-                <div class="buttons-container">
-                    <a class="button" href="https://sgaona21.github.io/Online-Registration-Form/" target="_blank">Site</a>
-                    <a class="button" href="https://github.com/sgaona21/Online-Registration-Form.git" target="_blank">GitHub</a>
-                </div>
-            </div>
-
-            <div class="project-container">
-                <img class="thumbnail" src="images/project-4-thumbnail.png">
-                <h3>Web Style Guide</h3>
-                <p class="project-description">In this project I took some pre written CSS and converted it to SCSS</p>
-                <div class="buttons-container">
-                    <a class="button" href="https://sgaona21.github.io/Web-Style-Guide/" target="_blank">Site</a>
-                    <a class="button" href="https://github.com/sgaona21/Web-Style-Guide.git" target="_blank">GitHub</a>
-                </div>
-            </div>
-
-            <div class="project-container">
-                <img class="thumbnail" src="images/project-5-thumbail.png">
-                <h3>JS Word Guessing Game</h3>
-                <p class="project-description">A wheel of furtune style guessing game written in vanilla Javascript</p>
-                <div class="buttons-container">
-                    <a class="button" href="https://sgaona21.github.io/Game-Show-App/" target="_blank">Site</a>
-                    <a class="button" href="https://github.com/sgaona21/Game-Show-App.git" target="_blank">GitHub</a>
-                </div>
-            </div>
-
-            <div class="project-container">
-                <img class="thumbnail" src="images/project-6-thumbnail.png">
-                <h3>Web App Dashboard</h3>
-                <p class="project-description">Here I built an interactive dashboard using HTML CSS and JavaScript</p>
-                <div class="buttons-container">
-                    <a class="button" href="https://sgaona21.github.io/WebApp-Dashboard/" target="_blank">Site</a>
-                    <a class="button" href="https://github.com/sgaona21/WebApp-Dashboard.git" target="_blank">GitHub</a>
-                </div>
-            </div>
-
-            <div class="project-container">
-                <img class="thumbnail" src="images/project-8-thumbnail.png">
-                <h3>API Employee Directoy</h3>
-                <p class="project-description">Using fetch I built a web app that generates a random list of employees from an API</p>
-                <div class="buttons-container">
-                    <a class="button" href="https://sgaona21.github.io/API-Employee-Directory/" target="_blank">Site</a>
-                    <a class="button" href="https://github.com/sgaona21/API-Employee-Directory.git" target="_blank">GitHub</a>
-                </div>
-            </div>
-            </div>
-        </section>
-
-
-
-
-
-
-
-
-
-
-        
+function makeBoth() {
+    setTimeout(makeDisappear, 0);
+    setTimeout(makeAppear, 500);
+}
+function blink() {
+    setInterval(makeBoth, 1000);
+}
+setTimeout(blink, 2000);

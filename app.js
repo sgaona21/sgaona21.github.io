@@ -17,7 +17,7 @@ function makeBoth() {
 function blink() {
     setInterval(makeBoth, 1000);
 }
-setTimeout(blink, 2000);
+setTimeout(blink, 1250);
 
 
 
@@ -40,6 +40,8 @@ function makeLetterAppear() {
     }  
 }
 makeLetterAppear();
+
+setInterval(makeLetterAppear, 7500)
 
 
 
