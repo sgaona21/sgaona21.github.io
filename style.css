@@ -248,10 +248,14 @@ h4 {
         /* margin: 2rem auto; */
         letter-spacing: 1px;
         padding: 1rem;
+        height: 11vh;
         margin-bottom: 0;
-        font-size: .8rem;
+        font-size: .9rem;
         /* max-width: 90%; */
         /* border-radius: 50px; */
+    }
+    .icon-separator {
+        font-size: .9rem;
     }
 
     h1 {
@@ -360,6 +364,7 @@ h4 {
         /* width: 95%;
         max-width: 95%; */
         font-size: 1rem;
+        height: 10vh;
     }
 
     .html-css-merge {
@@ -422,7 +427,7 @@ h4 {
     }
 
     .project-container {
-        max-width: 550px;
+        max-width: 425px;
     }
 
    
