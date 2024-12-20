@@ -41,7 +41,7 @@ function makeLetterAppear() {
 }
 makeLetterAppear();
 
-setInterval(makeLetterAppear, 7500)
+setInterval(makeLetterAppear, 15000)
 
 
 
